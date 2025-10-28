@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     direction TB
     
@@ -114,7 +115,7 @@ classDiagram
     ItemOS "1" --> "*" ItemPeca : utiliza
     Peca "1" --> "*" ItemPeca : é utilizada em
     OrdemServico --> StatusOS : possui
-
+```
 
 # Esquema Conceitual para Sistema de Oficina Mecânica
 
